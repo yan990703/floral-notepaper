@@ -168,6 +168,7 @@
   "noteMenu": {
     "delete": "刪除筆記",
     "export": "匯出 Markdown",
+    "exportDocx": "匯出 DOCX",
     "moveToCategory": "移至分類…"
   },
   "notepad": {

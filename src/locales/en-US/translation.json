@@ -168,6 +168,7 @@
   "noteMenu": {
     "delete": "Delete Note",
     "export": "Export Markdown",
+    "exportDocx": "Export DOCX",
     "moveToCategory": "Move to category…"
   },
   "notepad": {
