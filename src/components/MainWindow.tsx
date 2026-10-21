@@ -3028,11 +3028,12 @@ export function MainWindow({
                         ref={previewScrollRef}
                         onScroll={handlePreviewScroll}
                         className={`flex-1 overflow-y-auto px-6 pb-6 ${
-                          viewMode === "preview" ? "pt-3" : "pt-1"
+                          viewMode === "preview" ? "markdown-preview-scroll pt-3" : "pt-1"
                         }`}
                       >
                         <MarkdownPreview
                           content={deferredContent}
+                          showOutline={viewMode === "preview"}
                           onContentChange={
                             selectedId
                               ? (nextContent) => {
